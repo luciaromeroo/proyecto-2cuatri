@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+</head>
+<body>
+    <section>
+        <form action="https://formspree.io/f/xldlwwrr" method="POST">
+            <h1>Formulario</h1>
+            <label for="name">Nombre</label>
+           <input type="text" name="name" id="name" required><br>
+           <label for="apellido">Apellido</label>
+           <input type="text" name="apellido" id="apellido" required><br>
+           <label for="fecha">Fecha Nacimiento</label>
+           <input type="date" name="fecha" id="fecha" required><br>
+           <label for="edad">Edad</label>
+           <input type="number" name="edad" id="edad" required><br>
+           <input type="submit" value="Enviar">
+           <input type="reset" value="Borrar todo">
+
+           <h2>Seleccione su genero</h2>
+           <input type="radio" name="opcion" value="1"> Femenino
+           <input type="radio" name="opcion 2" value="2"> Masculino
+           <input type="radio" name="opcion 3" value="3"> Otro
+
+           <h2>Areas a desarrollar</h2>
+           <input type="radio" name="opcion" id="opcion" value="1">App Web
+           <input type="radio" name="opcion 1" id="opcion 1" value="2"> Analisis de datos
+           <input type="radio" name="opcion 2" id="opcion 2" value="3">Desarrollo de juegos
+
+           <h2>Selecciona tecnologia</h2>
+           <input type="checkbox" name="opcion 1" id="opcion 1" value="1">HTML
+           <input type="checkbox" name="opcion 2" id="opcion 2" value="2"> CSS
+           <input type="checkbox" name="opcion 3" id="opcion 3" value="3"> JS
+
+           <h2>Selecciona</h2>
+            <input type="radio" name="opcion" id="opcion" value="1">Chrome
+            <input type="radio" name="opcion 1" id="opcion 1" value="2"> Opera
+            <input type="radio" name="opcion 2" id="opcion 2" value="3"> Safari
+            <input type="radio" name="opcion 3" id="opcion 3" value="4"> Firefox
+            <input type="radio" name="opcion 4" id="opcion 4" value="5"> Edge
+
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="telefono">Tel</label>
+                <input type="tel" name="telefono" id="telefono"><br>
+                <label for="archivo">Archivo</label>
+                <input type="file" name="archivo" id="archivo"><br>
+            </fieldset>
+
+            <h2>Comentario</h2>
+            <textarea name="consulta" id="consulta" rows="10" cols="40" placeholder="Escribí tu consulta..."></textarea>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar todo">
+
+        </form>
+    </section>
+</body>
+</html>
